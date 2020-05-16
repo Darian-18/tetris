@@ -1,6 +1,19 @@
 document.addEventListener('DOMContentLoaded', () =>{
+    const grid = document.querySelector('.grid')
+    let squares = Array.from(document.querySelectorAll('.grid div'))
+    const ScoreDisplay = document.querySelector('#score')
+    const StartBtn = document.querySelector('#start-button')
+    const width = 10
+
+   /* const lTetrominoes = 'firstshape'
+    const zTetrominoes = 'secondshape'
+    const oTetrominoes = 'thirdshape'
+    const iTetrominoes = 'fourthshape'
+    const tTetrominoes = 'fifthshape'
 
 
+
+    const tetrominoes = [tTetrominoes, zTetrominoes, oTetrominoes, iTetrominoes, lTetrominoes]*/
 
     
 })
